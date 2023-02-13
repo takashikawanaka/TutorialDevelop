@@ -28,3 +28,18 @@ INSERT
             ,25
             ,'hanako.kirameki@mail.com'
         );
+INSERT
+    INTO
+        authentication(
+            login_user
+            ,password
+            ,valid_date
+            ,user_id
+        )
+    VALUES
+        (
+            "ktaro"
+            ,"$2a$08$clh9XaYYznpX9WDqySgiCuUu4znpSeu2oJi5l2Q00UJs42Llrbd7S"
+            ,"9999-12-31"
+            ,1
+        );
